@@ -1,0 +1,126 @@
+.mainContainer{
+    justify-content: center;
+    align-items: center;
+    margin: 2vmax 4vmax;
+}
+.heading{
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    margin: 2vmax 4vmax;
+    padding: 2px auto;
+    color: white;
+    font-size: 30px;
+    
+    font-weight: bold;
+}
+.heading span{
+    color: tomato;
+    font-size: 30px;
+    
+    font-weight: bold;
+}
+.container{
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    margin: 2vmax 4vmax;
+}
+.left{
+    width: 30%;
+    background-color: rgb(243, 193, 100);
+    margin: 1vmax;
+    padding: 1vmax 2vmax;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.search{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.right{
+    width: 30%;
+    background-color: rgb(157, 228, 218);
+    margin: 1vmax;
+    padding: 1vmax 2vmax;
+    justify-content: center;
+    align-items: center;
+}
+.right .sp{
+    text-align: center;
+
+}
+.right-1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+.rightbtn1{
+    background-color: blue;
+    color: white;
+    font-size: 12px;
+    font-weight: bold;
+    padding: 1vmax 0.5vmax;
+    margin: 1vmax;
+    width: 100%;
+}
+.rightbtn2{
+    background-color: blue;
+    color: white;
+    font-size: 12px;
+    font-weight: bold;
+    padding: 1vmax 1vmax;
+    width: 100%;
+
+}
+button{
+    background-color: orange;
+    border-radius: 5px;
+    color: white;
+    padding: 0.5vmax 2vmax;
+    border: none;
+    cursor: pointer;
+}
+.rightsp{
+    font-size: 15px;
+    font-weight: 600;
+    text-align: center;
+    cursor: pointer;
+    border-bottom: 1px solid black;
+}
+@media  screen and (max-width:600px) {
+    .container{
+        display: block;
+    }
+    .right{
+        width: 90%;
+        background-color: rgb(157, 228, 218);
+        margin: 1vmax;
+        padding: 1vmax 2vmax;
+    
+        
+    }
+    .left{
+        width: 90%;
+    background-color: rgb(243, 193, 100);
+    margin: 1vmax;
+    padding: 1vmax 2vmax;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    }
+    .heading{
+        justify-content: center;
+        display: flex;
+        align-items: center;
+        margin: 1vmax 2vmax;
+        padding: 1px auto;
+        color: white;
+        font-size: 30px;
+        
+        font-weight: bold;
+    }
+}
